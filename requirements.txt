@@ -3,7 +3,7 @@ torch
 accelerate
 sentence_transformers
 streamlit_chat
-streamlit
+streamlit==1.30.0
 faiss-cpu
 tiktoken
 ctransformers
