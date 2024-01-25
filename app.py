@@ -70,7 +70,7 @@ def main():
     load_dotenv()
     initialize_session_state()
     st.title("Chatbot")
-    file_path = "/Users/arun/Downloads/chatbot/48lawsofpower.pdf"  # Replace with your local file path
+    file_path = "48lawsofpower.pdf"  # Replace with your local file path
 
     if os.path.exists(file_path):
         text = []
